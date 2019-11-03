@@ -788,6 +788,8 @@ def main(_):
       "mnli": MnliProcessor,
       "mrpc": MrpcProcessor,
       "xnli": XnliProcessor,
+      "qqp": QqpProcessor,
+      "sst2": Sst2Processor,
   }
 
   tokenization.validate_case_matches_checkpoint(FLAGS.do_lower_case,
