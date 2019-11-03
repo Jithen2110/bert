@@ -163,6 +163,7 @@ def main(_):
       "mnli": run_classifier.MnliProcessor,
       "mrpc": run_classifier.MrpcProcessor,
       "qqp": run_classifier.QqpProcessor,
+      "sst": run_classifier.SstProcessor,
   }
 
   if not FLAGS.do_train and not FLAGS.do_eval:
